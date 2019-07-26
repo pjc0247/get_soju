@@ -1,9 +1,7 @@
 <p align="center">
 <b>get_soju</b><br>
 Enables live coding in Unity<br>
-<!--
-    <a href="docs/">Documentation</a> <b>/</b> <a href="https://pjc0247.github.io/UniScript/uniplayground/">Web Playground</a>\
--->
+    <a href="https://youtu.be/gFizNBs0okk">Youtube Demo</a>
 </p>
 
 Remarks
