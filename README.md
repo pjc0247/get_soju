@@ -11,6 +11,21 @@ Remarks
 This repository does not contains any kinds of source file or references since this project is not an open-source.<br>
 However, you can still report an issue or learn how to use thsi product via this `README.md`.
 
+Usage
+----
+### Setup
+Just import the package, everything will be prepared automatically.<br>
+No additional coding required.
+
+### Remote
+* Make sure you have enabled `Soju/Enable Remote` in the top menu.
+* Make sure your PC and remote device connected to same network and can be reachable each other.
+* Build the project. (Currently Android and Win32 platforms are supported)
+* Click `Soju/Remote` menu to start remote mode.
+* Run the binary which you built. If everything goes fine, you may see `Connected` message on the screen.
+* Start modifying. In this period, every modification won't be applied to Unity Editor but remote device.
+  * You MUST close the remote window to play in the editor.
+
 Boost compliation time
 ----
 If your project has many script files or contains heavy plugins, consider to use [`asmdef`](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) to reduce compliation time.<br>
