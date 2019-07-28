@@ -58,6 +58,8 @@ private void OnMessage(object sender, MessageEventArgs e) {
 
 Limitations
 ----
+Since .NET does not support runtime method swapping, there're some limitations which can't be accomplished.
+
 * Adding new methods to existing type may lead your game to unexpected behaviour. (It does not mean to break the entire project or Unity Editor itself.)
     * Creating a lambda expression is not working for the same reason.
     * Adding a LINQ cluase with `pred(Action, Func...)` is not working.
