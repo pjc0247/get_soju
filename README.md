@@ -28,7 +28,7 @@ Tips
 ----
 ### Boost compliation time
 Most cases, __SOJU__'s compliation is way faster than Unity's. But still can be a glitch in huge projects.<br>
-If your project has many script files or contains heavy plugins, consider to use [`asmdef`](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) to reduce compliation time.<br>
+If your project has many script files or contains heavy plugins, consider using [`asmdef`](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) to reduce compliation time.<br>
 __Soju__ automatically excludes scripts that already compiled into binary using `asmdef`. It would be great help to reduce both runtime & unity compliation time.
 
 
