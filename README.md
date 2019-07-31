@@ -7,7 +7,7 @@ Enables live coding in Unity<br>
 Remarks
 ----
 This repository does not contains any kinds of source file or references since this project is not an open-source.<br>
-However, you can still report an issue or learn how to use thsi product via this `README.md`.
+However, you can still report an issue or learn how to use this product via this `README.md`.
 
 How to Guide
 ----
