@@ -32,7 +32,7 @@ If your project has many script files or contains heavy plugins, consider using 
 __Soju__ automatically excludes scripts that already compiled into binary using `asmdef`. It would be great help to reduce both runtime & unity compliation time.
 
 
-### Hot reload contents (LUA)
+### Hot contents reloading (LUA)
 It does not support any kind of contents reloading directly, but you may interested in using SOJU connection to deliver contents to mobile devices from the Editor.<br>
 Here's a short guide to communicate between remote devices using SOJU connection.
 
