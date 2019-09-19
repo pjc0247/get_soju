@@ -57,11 +57,11 @@ private void OnMessage(object sender, MessageEventArgs e) {
 
 제한사항
 ----
-Since .NET does not support runtime method swapping, there're some limitations which can't be accomplished.
+.NET은 공식적으로 런타임에 method swapping을 지원하지 않기 때문에 몇가지 제한 사항들이 존재합니다.
 
-* Adding new methods to existing type may lead your game to unexpected behaviour. (It does not mean to break the entire project or Unity Editor itself.)
+* 새로운 메소드를 추가하는것은 권장되지 않으며 버그를 일으킬 수 있습니다. (It does not mean to break the entire project or Unity Editor itself.)
     * Creating a lambda expression is not working for the same reason.
     * Adding a LINQ cluase with `pred(Action, Func...)` is not working.
-    * Modifying existing methods or LINQ works fine.
-* Adding new classes is not allowed
-* Modifying class structure (field, property) is not allowed
+    * 기존에 존재하던 메소드 혹은 Lambda 함수를 수정하는것은 허용됩니다.
+* 새로운 클래스를 추가하는것은 허용되지 않습니다.
+* 클래스 구조를 변경하는것 (필드 혹은 프로퍼티의 추가)는 허용되지 않습니다. (일부 경우에 동작하는것 처럼 보일 수 있지만 예상하지 못한 버그를 일으킬 수 있습니다.)
