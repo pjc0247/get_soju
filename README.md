@@ -24,6 +24,15 @@ No additional coding required.
 * Start modifying. In this period, every modification won't be applied to Unity Editor but remote device.
   * You MUST close the remote window to play in the editor.
 
+### REPL
+```
+Soju also provides REPL, however this is not a key function of our project.
+You may want to try uREPL for more powerful features.
+https://github.com/hecomi/uREPL
+```
+Press `Ctrl + l` to open __REPL__ window. You can type single or multiple lines of code. <br>
+If you want to inspect a value, please prepend `return` keyword.
+
 Tips
 ----
 ### Boost compliation time
