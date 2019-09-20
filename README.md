@@ -18,6 +18,7 @@ No additional coding required.
 ### Remote
 * Make sure you have enabled `Soju/Enable Remote` in the top menu.
 * Make sure your PC and remote device connected to same network and can be reachable each other.
+  * Run `Assets/Soju/firewall.ps.1` if you have a firewall.
 * Build the project. (Currently Android and Win32 platforms are supported)
 * Click `Soju/Remote` menu to start remote mode.
 * Run the binary which you built. If everything goes fine, you may see `Connected` message on the screen.
