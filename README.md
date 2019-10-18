@@ -76,3 +76,5 @@ Since .NET does not support runtime method swapping, there're some limitations w
     * Modifying existing methods or LINQ works fine.
 * Adding new classes is not allowed
 * Modifying class structure (field, property) is not allowed
+
+* May not work with other code modification libraries. (UNET or Mirror)
