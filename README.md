@@ -4,6 +4,8 @@ Enables live coding in Unity<br>
     <a href="https://youtu.be/gFizNBs0okk">Youtube Demo</a>
 </p>
 
+SOJU hacks dotnet/mono runtime backend and enables you to modify codes in runtime. Enjoy :)
+
 Remarks
 ----
 This repository does not contains any kinds of source file or references since this project is not an open-source.<br>
